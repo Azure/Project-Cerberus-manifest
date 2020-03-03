@@ -1,5 +1,10 @@
+# Project Cerberus
 
-# Contributing
+This repository is the container for manifest files used to get Cerberus source code using the repo tool.
+For source code and project details, go to the main Project Cerberus repository at https://github.com/Azure/Project-Cerberus.
+
+
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
