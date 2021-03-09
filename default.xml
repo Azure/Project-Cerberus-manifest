@@ -8,7 +8,7 @@ Licensed under the MIT license.
   <remote fetch="https://github.com/Azure" name="cerberus"/>
   <remote fetch="https://github.com/ARMmbed" name="mbedtls"/>
 
-  <project remote="cerberus" revision="master" name="Project-Cerberus" path="."/>
-  <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="external/mbedtls-2.17.0"/>
+  <project remote="cerberus" revision="master" name="Project-Cerberus" path="cerberus"/>
+  <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="cerberus/external/mbedtls-2.17.0"/>
 
 </manifest>
