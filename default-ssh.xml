@@ -6,9 +6,11 @@ Licensed under the MIT license.
 <manifest>
 
   <remote fetch="ssh://git@github.com" name="cerberus"/>
-  <remote fetch="https://github.com/ARMmbed" name="mbedtls"/>
+  <remote fetch="https://github.com/Mbed-TLS" name="mbedtls"/>
 
   <project remote="cerberus" revision="master" name="Azure/Project-Cerberus" path="cerberus"/>
-  <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="cerberus/external/mbedtls-2.17.0"/>
+
+  <!-- mbedTLS v2.28.9 -->
+  <project remote="mbedtls" revision="5e146adef63b326b04282252639bebc2730939c6" name="mbedtls" path="cerberus/external/mbedtls"/>
 
 </manifest>
