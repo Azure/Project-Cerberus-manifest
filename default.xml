@@ -7,10 +7,15 @@ Licensed under the MIT license.
 
   <remote fetch="https://github.com/Azure" name="cerberus"/>
   <remote fetch="https://github.com/Mbed-TLS" name="mbedtls"/>
+  <remote fetch="https://github.com/smuellerDD" name="acvpparser"/>
 
   <project remote="cerberus" revision="master" name="Project-Cerberus" path="cerberus"/>
 
-  <!-- mbedTLS v2.28.9 -->
-  <project remote="mbedtls" revision="5e146adef63b326b04282252639bebc2730939c6" name="mbedtls" path="cerberus/external/mbedtls"/>
+  <!-- mbedTLS v3.6.3.1 -->
+  <project remote="mbedtls" revision="6fb5120fde4ab889bea402f5ab230c720b0a3b9a" name="mbedtls" path="cerberus/external/mbedtls"/>
+
+  <!-- Library used for FIPS ACVP testing -->
+  <!-- 9e7b9e37ab24abc67eaaef3024fe0a080c7cb8d6 = master as of 03/04/2025 -->
+  <project remote="acvpparser" revision="9e7b9e37ab24abc67eaaef3024fe0a080c7cb8d6" name="acvpparser" path="cerberus/external/acvpparser"/>
 
 </manifest>
